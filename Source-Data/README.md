@@ -1,6 +1,7 @@
 # AdventureWorks Sales: Source Simulation
 
-<i>The data is pivoted denormalized version of the original AdventureWorks Sales Authored by Jeroen ter Heerdt</i> 
+- <i>The data is pivoted denormalized version of the original AdventureWorks Sales Authored by Jeroen ter Heerdt</i>
+
 The Excel workbook plays the role of a **source system**. The snippet below turns it into JSON files, one per order month, laid out like batches landing in the data lake's `raw` zone.
 
 Requires `pandas` and `openpyxl`.
